@@ -25,7 +25,7 @@ Steps to Set Up
 Clone the repository to your local machine:
 
 bash:
-git clone https://github.com/yourusername/ai-task-manager.git
+git clone https://github.com/tFretheim/ai-task-manager.git
 cd ai-task-manager
 Set up a virtual environment (optional but recommended):
 
