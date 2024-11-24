@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Task Manager</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+    <h1>AI-Assisted Task Manager</h1>
+
+    <!-- Skjema for å legge til oppgave -->
+    <form id="task-form">
+        <input type="text" id="title" placeholder="Task Title" required>
+        <input type="text" id="description" placeholder="Description">
+        <button type="submit">Add Task</button>
+    </form>
+
+    <!-- Liste over oppgaver -->
+    <div id="tasks"></div>
+
+    <!-- Link til JavaScript-fil -->
+    <script src="/static/script.js"></script>
+</body>
+</html>
