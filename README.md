@@ -32,7 +32,6 @@ Set up a virtual environment (optional but recommended):
 bash:
 python -m venv venv
 venv\Scripts\activate  # On Windows
-# or
 source venv/bin/activate  # On macOS/Linux
 Install the required dependencies:
 
